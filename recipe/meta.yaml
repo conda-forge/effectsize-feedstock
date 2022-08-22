@@ -1,5 +1,5 @@
 {% set name = "effectsize" %}
-{% set version = "0.0.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/effectsize-{{ version }}.tar.gz
-  sha256: 2f5a67f436b57437cfb3aa8885804811bf50b9f055f135560d4ed74ed131ac03
+  sha256: 2022a0abdd2429c5ee4ebb679d4b1c35031b2510846b4f05faf6e1dba4a1b62b
 
 build:
   noarch: python
